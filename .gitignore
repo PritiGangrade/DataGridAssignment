@@ -1,0 +1,23 @@
+# Ignore ide specific files for IDEA and eclipse
+*.iml
+*.iws
+.idea/
+.project
+.classpath
+.settings/
+atlassian-ide-plugin.xml
+
+# Ignore output directories
+logs/
+target/
+.gradle/
+build/
+out/
+classes/
+/pom.xml
+
+# Ignore python byte code
+*.pyc
+
+# for Mac
+.DS_Store
